@@ -38,4 +38,5 @@ jobs:
     - name: Basic smoke test
       run: |
         docker-compose up --build --detach
+        sleep 20
         curl --fail localhost:8000
