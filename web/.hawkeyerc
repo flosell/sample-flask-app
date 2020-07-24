@@ -5,7 +5,6 @@
         "files-contents",
         "files-secrets",
         "python-bandit",
-        "python-safety",
-        "python-piprot"
+        "python-safety"
     ]
 }
