@@ -1,4 +1,6 @@
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+name: Hawkeye
+on: [push, pull_request]
 jobs:
   # This workflow contains a single job called "scan"
   scan:
